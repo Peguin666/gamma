@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GAMMA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/styles.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <script src="scripts/genToken.js"></script>
+    </head>
+    <body>
+        <div>
+        <h1 id="main-header">Welcome</h1>
+        <form onsubmit="submitToken();return false;">
+            <h3 id="secondary-header">Enter code:</h3><br><div id="dataContainer"><input type="text" id="dataEntry"></div>
+            <div id="dataContainer"><input type="submit" value=">" id="dataSubmit"></div>
+        </form>
+        <p id="Result"></p>
+        </div>
+        <p id="finalFight" style="display: none">X: -3251 Z: -1933</p>
+    </body>
+</html>
