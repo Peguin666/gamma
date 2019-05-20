@@ -9,7 +9,7 @@ function submitToken(){
     document.getElementById("dataEntry").value = "";
     switch(Number(tokenValue)){
         case generateToken(23):
-            document.location = '';//Enter path to zipped file before start.
+            document.location = 'rgdgrdgsesgtrfytrydthdy.zip';//Enter path to zipped file before start.
             break;
         case generateToken(102):
             //The alpha base (wrong)
